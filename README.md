@@ -18,3 +18,16 @@
 - **部署**：Docker（可选）
 
 ## 结构说明
+agent-management-platform/
+├── app.py               # 主应用入口，定义 API 路由
+├── models.py            # 数据模型（SQLAlchemy）
+├── db.sqlite3          # 本地 SQLite 数据库文件
+├── requirements.txt    # 项目依赖
+└── README.md            # 项目说明文档（当前文件）
+
+## 任务要求（供出题使用）
+请实现上述平台的基本功能，重点关注以下几点：
+1. 设计合理的 API 路径与请求/响应结构。  
+2. 使用 Flask（或 FastAPI）实现路由逻辑，确保代码可读、易维护。  
+3. 使用 SQLite 持久化智能体信息，提供增删改查接口。  
+4. 编写单元测试（可选）验证关键接口的正确性。  
