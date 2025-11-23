@@ -18,7 +18,7 @@
 - **部署**：Docker（可选）
 
 ## 结构说明
-agent-management-platform/
+agent-management-platform
 ├── app.py               # 主应用入口，定义 API 路由
 ├── models.py            # 数据模型（SQLAlchemy）
 ├── db.sqlite3          # 本地 SQLite 数据库文件
