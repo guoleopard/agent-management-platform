@@ -13,7 +13,7 @@ def test_register_agent():
         response = requests.post(url, json=data)
         print(f"Register Agent - Status Code: {response.status_code}")
         print(f"Response: {response.json()}")
-        return response.status_code == 201 or response.status_code == 409
+        return response.status_code == 201
     except Exception as e:
         print(f"Error: {e}")
         return False
@@ -45,7 +45,6 @@ def test_get_agent():
 def test_update_agent():
     url = 'http://127.0.0.1:5000/agents/1'
     data = {
-        'name': 'TestAgent',
         'description': 'Updated test agent',
         'status': 'running'
     }
