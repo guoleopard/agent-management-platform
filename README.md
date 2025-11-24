@@ -25,7 +25,7 @@ agent-management-platform
 ├── requirements.txt    # 项目依赖
 └── README.md            # 项目说明文档（当前文件）
 
-## 任务要求（供出题使用）
+## 任务要求
 请实现上述平台的基本功能，重点关注以下几点：
 1. 设计合理的 API 路径与请求/响应结构。  
 2. 使用 Flask（或 FastAPI）实现路由逻辑，确保代码可读、易维护。  
